@@ -1,8 +1,4 @@
 # JBRenderer
-Summer Project to have fun
-<!-- Add banner here -->
-
-# Project Title
 
 <!-- Add buttons here -->
 
