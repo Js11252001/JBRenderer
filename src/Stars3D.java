@@ -29,6 +29,8 @@ public class Stars3D
 
     public void UpdateAndRender(Bitmap target, float delta)
     {
+        final float tanHalfFOV = (float)Math.tan(Math.toRadians(140.0/2.0));
+
         target.Clear((byte)0x00);
 
         float halfWidth = target.GetWidth()/2.0f;
@@ -40,8 +42,8 @@ public class Stars3D
             {
                 InitStar(i);
             }
-            int x = (int)((mStarX[i])/mStarZ[i] * halfWidth + halfWidth);
-            int y = (int)((mStarY[i])/mStarZ[i] * halfHeight + halfHeight);
+            int x = (int)((mStarX[i])/(mStarZ[i] * tanHalfFOV) * halfWidth + halfWidth);
+            int y = (int)((mStarY[i])/(mStarZ[i] * tanHalfFOV) * halfHeight + halfHeight);
 
             if ( x < 0 || x >= target.GetWidth() || (y < 0 || y >= target.GetHeight()) )
             {
