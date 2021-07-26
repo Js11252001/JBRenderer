@@ -8,17 +8,7 @@
 
 <!-- Describe your project in brief -->
 The basic renderer for CG practice.
-<!-- The project title should be self explanotory and try not to make it a mouthful. (Although exceptions exist- **awesome-readme-writing-guide-for-open-source-projects** - would have been a cool name)
 
-Add a cover/banner image for your README. **Why?** Because it easily **grabs people's attention** and it **looks cool**(*duh!obviously!*).
-
-The best dimensions for the banner is **1280x650px**. You could also use this for social preview of your repo.
-
-I personally use [**Canva**](https://www.canva.com/) for creating the banner images. All the basic stuff is **free**(*you won't need the pro version in most cases*).
-
-There are endless badges that you could use in your projects. And they do depend on the project. Some of the ones that I commonly use in every projects are given below. 
-
-I use [**Shields IO**](https://shields.io/) for making badges. It is a simple and easy to use tool that you can use for almost all your badge cravings. -->
 
 <!-- Some badges that you could use -->
 
@@ -48,6 +38,10 @@ I use [**Shields IO**](https://shields.io/) for making badges. It is a simple an
 
 ![Stars GIF](https://github.com/Js11252001/JBRenderer/blob/master/Stars.gif)
 
+## demo 02——Monkey
+
+![Monkey](https://github.com/Js11252001/JBRenderer/blob/master/QQ20210726-134338-HD.gif)
+
 # Table of contents
 
 <!-- After you have introduced your project, it is a good idea to add a **Table of contents** or **TOC** as **cool** people say it. This would make it easier for people to navigate through your README and find exactly what they are looking for.
@@ -67,10 +61,11 @@ Here is a sample TOC(*wow! such cool!*) that is actually the TOC for this README
 [(Back to top)](#table-of-contents)
 
 <!-- This is optional and it is used to give the user info on how to use the project after installation. This could be added in the Installation section also. -->
+Copy and running the code in any platform with Java IDE 
 
 # Development
 [(Back to top)](#table-of-contents)
-
+Have fun in the coding and review the skill of java programming
 
 # License
 [(Back to top)](#table-of-contents)
