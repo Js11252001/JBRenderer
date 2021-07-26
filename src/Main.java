@@ -6,7 +6,7 @@ public class Main
     // depending on what you're doing
     public static void main(String[] args) throws IOException
     {
-        Display display = new Display(800, 600, "Software Rendering");
+        Display display = new Display(800, 600, "JB Renderer");
         RenderContext target = display.GetFrameBuffer();
 
         Bitmap texture = new Bitmap("./res/bricks.jpg");
